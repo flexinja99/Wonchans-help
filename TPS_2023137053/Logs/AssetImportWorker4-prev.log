@@ -1,0 +1,852 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32558 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/102-19/Desktop/TPS_2023137053
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53522
+Successfully changed project path to: C:/Users/102-19/Desktop/TPS_2023137053
+C:/Users/102-19/Desktop/TPS_2023137053
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17572] Host "[IP] 192.168.15.202 [Port] 0 [Flags] 2 [Guid] 2003947210 [EditorId] 2003947210 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2QEKEEG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17572] Host "[IP] 192.168.15.202 [Port] 0 [Flags] 2 [Guid] 2003947210 [EditorId] 2003947210 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2QEKEEG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 98.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/102-19/Desktop/TPS_2023137053/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Vendor:   NVIDIA
+    VRAM:     8002 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012188 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.5 KB). Loaded Objects now: 3530.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 5.046900 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.203000 ms MarkObjects: 4.451600 ms  DeleteObjects: 0.108900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1923.462590 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/backImage.png
+  artifactKey: Guid(0fbf23bda4c210c44a0fe51c9bbaecc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/backImage.png using Guid(0fbf23bda4c210c44a0fe51c9bbaecc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2221f15f7e045f6349205d09b1b04f63') in 0.190873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_38.mat
+  artifactKey: Guid(4609707953676524ca8dbe489a6ced95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_38.mat using Guid(4609707953676524ca8dbe489a6ced95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f049a8cae29bcfd1da073cdd61aef5d1') in 0.127125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_27.mat
+  artifactKey: Guid(3cd173ae4543f8745ac463237321e8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_27.mat using Guid(3cd173ae4543f8745ac463237321e8db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81590859baa0c6eedc3f7463a4ee51fe') in 0.036291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_20.mat
+  artifactKey: Guid(b1ec81eca85a9d84ea5f62901c99f89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_20.mat using Guid(b1ec81eca85a9d84ea5f62901c99f89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a41837703133e4c6ca4f5534f300557') in 0.038782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_08_Normal.tga
+  artifactKey: Guid(2ee180c070da9554385c5a088aae062e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_08_Normal.tga using Guid(2ee180c070da9554385c5a088aae062e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f0de51d2e957cbb746659cf0577c962') in 0.021906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_37.mat
+  artifactKey: Guid(b944d3c9a69fd6142b438414bbddcd4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_37.mat using Guid(b944d3c9a69fd6142b438414bbddcd4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbe8a44cbc4380699d2508e7ce5b840b') in 0.033667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/StarSkyBox.mat
+  artifactKey: Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/StarSkyBox.mat using Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '492bc02c9e7d3f8b4da45d7042443b3a') in 0.031343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Diffuse.tga
+  artifactKey: Guid(9235f02dfc48e41448cbd353c0a00a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Diffuse.tga using Guid(9235f02dfc48e41448cbd353c0a00a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd4b695c809c44f85918851193997f3b') in 0.023203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Normal.tga
+  artifactKey: Guid(a5a6e3521459fc94e9bd621c71bd96af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Normal.tga using Guid(a5a6e3521459fc94e9bd621c71bd96af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '492ccf47ee309c1d88b90cfdc06725c9') in 0.017994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga
+  artifactKey: Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga using Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e4c809b52624610ad8e8a2856b86f22') in 0.019035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga
+  artifactKey: Guid(035c1683361e0bd48b03f41544efc189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga using Guid(035c1683361e0bd48b03f41544efc189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f7ee276bc5d1982e7d5e9b2c8b71691') in 0.019240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_22.mat
+  artifactKey: Guid(ad7d3ed0319816940bbf70e52f46866d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_22.mat using Guid(ad7d3ed0319816940bbf70e52f46866d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd76c2dbac5c5e8286537c7e747a6b14b') in 0.030495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga
+  artifactKey: Guid(329307f94867b154e8e49be96de7caad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga using Guid(329307f94867b154e8e49be96de7caad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd25634de6c2d75350bd30b65b32cf1b') in 0.024239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_11_Diffuse.tga
+  artifactKey: Guid(02b2e6db5c6cbc74796f44888a7f1197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_11_Diffuse.tga using Guid(02b2e6db5c6cbc74796f44888a7f1197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '256226dff5c31d381467e5bbe9de228a') in 0.019230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_06.mat
+  artifactKey: Guid(404f9faecac1f6d43b5fcefa89522ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_06.mat using Guid(404f9faecac1f6d43b5fcefa89522ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98592d0598e13c73bc36e1bd791c1a5a') in 0.023340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga
+  artifactKey: Guid(ff112d4d8095778409870405738d14f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga using Guid(ff112d4d8095778409870405738d14f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e6321ca382137dd2e01d3787a0bc57f') in 0.017729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_17.mat
+  artifactKey: Guid(719a1a58587c8784d86b0eec4539ef05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_17.mat using Guid(719a1a58587c8784d86b0eec4539ef05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93ea76250c14343a7c3be99d187197a6') in 0.014387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_06_Specular.tga
+  artifactKey: Guid(be9e7e8e339ba1e4799d2618611d7661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_06_Specular.tga using Guid(be9e7e8e339ba1e4799d2618611d7661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f870b5e83c9ab03bd93a6b9216aa6d9') in 0.016214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_18_Diffuse.tga
+  artifactKey: Guid(593ec409626273b4fafae09440a512d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_18_Diffuse.tga using Guid(593ec409626273b4fafae09440a512d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e00ba210edde803a25f2342eb8c6c21') in 0.020194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat
+  artifactKey: Guid(c3f545871e6ad0b429875fb73852a671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_29.mat using Guid(c3f545871e6ad0b429875fb73852a671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6de8dee8454a12722b14da80299f2c6d') in 0.038878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Normal.tga
+  artifactKey: Guid(1f8c6ec62be014641995334990ab7993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Normal.tga using Guid(1f8c6ec62be014641995334990ab7993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce46898aba3bf1bb6759301c1b47891') in 0.025827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_35.mat
+  artifactKey: Guid(9607862bf90553342b6c7a1e3d273805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_35.mat using Guid(9607862bf90553342b6c7a1e3d273805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba2d473555689da81f02b5bf4d1b0ce4') in 0.036008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Specular.tga
+  artifactKey: Guid(09d6c9908f6e3ee4b939119f63b0ee4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Specular.tga using Guid(09d6c9908f6e3ee4b939119f63b0ee4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '415c7baa058176cd76bf4a2b02e45dcc') in 0.018638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga
+  artifactKey: Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga using Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c21965fba29e42fe3374731b1cc879') in 0.023511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga
+  artifactKey: Guid(f6061b0c042df0b40978226fa22c5697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga using Guid(f6061b0c042df0b40978226fa22c5697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0dcdbc97c2f77aac4cd4791fc0712f5') in 0.019834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_02.mat
+  artifactKey: Guid(f4882f226d2cd9f4288701fe37633f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cyberpunk Car/Models/Materials/Cyberpunk_Car_Glass_02.mat using Guid(f4882f226d2cd9f4288701fe37633f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '732418f3447cfd2dab84386bf544ccb8') in 0.031941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga
+  artifactKey: Guid(0641f934232d8914ea2e2479cf4c0939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga using Guid(0641f934232d8914ea2e2479cf4c0939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88d22824518dbf5854306edae7491940') in 0.025757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga
+  artifactKey: Guid(4255026a0849e4148af09618fd875c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga using Guid(4255026a0849e4148af09618fd875c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90bdec0b78fd8039f165645ea5ed4b05') in 0.026298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga
+  artifactKey: Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga using Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24fe5600d465ba061d33c94f27d3d046') in 0.026295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga
+  artifactKey: Guid(d9dbacc028e656049949af84c56a4e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga using Guid(d9dbacc028e656049949af84c56a4e64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd439da293cd78bc2294f60cb03047fa8') in 0.021667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga
+  artifactKey: Guid(7291e3e19509b2e46a6f452a104360f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga using Guid(7291e3e19509b2e46a6f452a104360f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31fac713862b60fe256f064dd3e3be26') in 0.029779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga
+  artifactKey: Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga using Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7c866bd16f2926560cbd15fb57272fb') in 0.023502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Diffuse.tga
+  artifactKey: Guid(858edb10117ddc24a805151cb8bb53ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Diffuse.tga using Guid(858edb10117ddc24a805151cb8bb53ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1762e79e00944b6c97faabfc6f12fa7') in 0.022885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_25_Specular.tga
+  artifactKey: Guid(bd234f8d2756b7848b2423a3f99231cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_25_Specular.tga using Guid(bd234f8d2756b7848b2423a3f99231cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f2ec27c26a5bfaf1311fd0891263ffc') in 0.023150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga
+  artifactKey: Guid(7bf14af4662458044a096632566cf50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga using Guid(7bf14af4662458044a096632566cf50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76d4c39da4c5f1cfb633537f2d7c2c77') in 0.018759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga
+  artifactKey: Guid(45327f0d326c97f4f884bf345d710f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga using Guid(45327f0d326c97f4f884bf345d710f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f5c9f3c2045bf48324e83d0fc3c985e') in 0.017646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga
+  artifactKey: Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga using Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19921bfa50d0e65c25d3ff00a2ac583b') in 0.018178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga
+  artifactKey: Guid(d89e0d9211450ba46a26692c471bc88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga using Guid(d89e0d9211450ba46a26692c471bc88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fef9d0f88e0b2dc73b9e432e3a6cf3c7') in 0.021098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Demo/DEMO_YFMM_SphereMesh.FBX
+  artifactKey: Guid(4f949ae83a043c64d9ee5d95fc9db193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Demo/DEMO_YFMM_SphereMesh.FBX using Guid(4f949ae83a043c64d9ee5d95fc9db193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a118f44d912e8b1764373197f81ba6ea') in 0.049516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_45_Normal.tga
+  artifactKey: Guid(f9469f3b93a01a24c99b79f7d7ac025d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_45_Normal.tga using Guid(f9469f3b93a01a24c99b79f7d7ac025d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00d06e1a781250f178b1b4a297a76947') in 0.020334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga
+  artifactKey: Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga using Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dbe707d04b4cfcfcff7d78bc21fc85f') in 0.027553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat
+  artifactKey: Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat using Guid(2e501b641f5503e4d9442eb5c3f96f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e23ca7d3760e0e57fc25af7730495d0') in 0.019196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga
+  artifactKey: Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga using Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '264949e4d1e4537258d7e89ebddac345') in 0.017924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Normal.tga
+  artifactKey: Guid(79a144edbc721134e96d8c6b78287024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Normal.tga using Guid(79a144edbc721134e96d8c6b78287024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a1cc163072d1e49de13cf0fc5a1b007') in 0.021545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Specular.tga
+  artifactKey: Guid(e9bce6c95f36f1e4ea73c08b2a6165e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Specular.tga using Guid(e9bce6c95f36f1e4ea73c08b2a6165e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acea216e5da51fc681ddbd40714ac5cc') in 0.018790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Diffuse.tga
+  artifactKey: Guid(34642f23da78a9f43b87e30f0b38a796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Diffuse.tga using Guid(34642f23da78a9f43b87e30f0b38a796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94d47bbf69a145276845a6ace9dee2ce') in 0.021009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Specular.tga
+  artifactKey: Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Specular.tga using Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ae4979c91c79bf736fdaad4ca64a82b') in 0.019564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Diffuse.tga
+  artifactKey: Guid(b83cd04fd3669764388c0ad4cc89e7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Diffuse.tga using Guid(b83cd04fd3669764388c0ad4cc89e7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '925949be850a6c9e72e4fba6903c65cb') in 0.018645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga
+  artifactKey: Guid(d86c80ae03435124fbf96fd0e9882016) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga using Guid(d86c80ae03435124fbf96fd0e9882016) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2774fa46e16bd819209e1fd8069f4d5') in 0.028937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_32.mat
+  artifactKey: Guid(808e5bc0f76962c459361fe60e2d29ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/M_YFMM_32.mat using Guid(808e5bc0f76962c459361fe60e2d29ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0db3861c0b1359f77585cbff6e90cc33') in 0.021197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png
+  artifactKey: Guid(1eee1a8f13e601d4e967192b6915486c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png using Guid(1eee1a8f13e601d4e967192b6915486c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5ae7184f642bc4c545a6abf133b19d') in 0.021376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga
+  artifactKey: Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga using Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e2097ed1eb8f2e45bd6c8213abaa933') in 0.017656 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (78.1 KB). Loaded Objects now: 3531.
+Memory consumption went from 61.4 MB to 61.3 MB.
+Total: 5.196600 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.373600 ms MarkObjects: 4.310300 ms  DeleteObjects: 0.134700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.747770 seconds.
+  path: Assets/02.Scripts/PlayerCtrl.cs
+  artifactKey: Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/PlayerCtrl.cs using Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e030e3ef6e47b02e9155dcee52d754') in 0.008704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.768356 seconds.
+  path: Assets/02.Scripts/PlayerCtrl.cs
+  artifactKey: Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/02.Scripts/PlayerCtrl.cs using Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19fd51f55bbe490a8df0b859126dcc12') in 0.012824 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.9 KB). Loaded Objects now: 3534.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 2.467700 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.172900 ms MarkObjects: 1.963500 ms  DeleteObjects: 0.076700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.124039 seconds.
+  path: Assets/02.Scripts/PlayerCtrl.cs
+  artifactKey: Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Scripts/PlayerCtrl.cs using Guid(4fbd3d53528cfcd4aa48789bfda6cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9392ddb88ee24da3a13ccecc4edfe84') in 0.013426 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004550 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.0 KB). Loaded Objects now: 3537.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 2.493500 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.021700 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.1 KB). Loaded Objects now: 3540.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 2.502900 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.027900 ms  DeleteObjects: 0.080900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1191ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.9 KB). Loaded Objects now: 3543.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 2.658100 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.193100 ms  DeleteObjects: 0.098000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\102-19\Desktop\TPS_2023137053\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.9 KB). Loaded Objects now: 3546.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 2.987100 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.139300 ms MarkObjects: 2.516900 ms  DeleteObjects: 0.087700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=현재 연결은 원격 호스트에 의해 강제로 끊겼습니다.
